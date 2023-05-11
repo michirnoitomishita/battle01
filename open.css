@@ -1,0 +1,68 @@
+body {
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+.container {
+  text-align: center;
+  animation: blink 1s step-end infinite;
+}
+
+.title {
+  color: white;
+  font-size: 100px;
+}
+
+.sub-title {
+  color: white;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.easy-button {
+  background-color: #4caf50;
+  color: white;
+  margin-right: 10px;
+}
+
+.hard-button {
+  background-color: #f44336;
+  color: white;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@keyframes buttonClicked {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

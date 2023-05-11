@@ -1,0 +1,234 @@
+body {
+  background-color: black;
+  color: white;
+  max-width: 960px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title_box {
+  background: url(/img/AAAABbvgS6zvr0S8F2qC110sUvdftKa9Ql07B4VH8YnTspAyuOtmWsa0-aRQVVYG2zCR5cmfJiUEfpxMIMjD7k6Z6mwa7z3O.jpg);
+  /* 背景を決める。外に出る場合../ */
+  background-size: cover;
+  /* 背景画像のはめこみ */
+  background-position: center;
+  /*  */
+  height: 200px;
+  width: 940px;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.come {
+  margin-top: -40px;
+  /* // 例として20px上に移動させる場合 */
+  padding: auto;
+  font-weight: bold;
+}
+
+.main_contener {
+  display: flex;
+}
+
+.left {
+  height: 600px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 0%;
+}
+
+.mannaka {
+  height: 600px;
+  width: 440px;
+  border: 1px solid white;
+  border-radius: 0%;
+}
+
+.right {
+  height: 600px;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 0%;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.left_top {
+  align-items: center;
+}
+
+.left_harf {
+  margin-top: 10px;
+}
+
+.gu_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rock-image {
+  border-radius: 90%;
+}
+
+#rock-image_kekka {
+  border-radius: 90%;
+}
+
+#rock-image_kekka2 {
+  border-radius: 90%;
+}
+
+#dragon_rock-image {
+  border-radius: 90%;
+}
+
+.cho_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cho-image {
+  border-radius: 90%;
+  margin-left: 10px;
+}
+
+#cho-image_kekka {
+  border-radius: 90%;
+}
+
+#cho-image_kekka2 {
+  border-radius: 90%;
+}
+
+#dragon_cho-image {
+  border-radius: 90%;
+}
+
+.pa_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+}
+
+#pa-image {
+  border-radius: 90%;
+  margin-left: 40px;
+}
+
+#pa-image_kekka {
+  border-radius: 90%;
+}
+
+#pa-image_kekka2 {
+  border-radius: 90%;
+}
+
+#dragon_pa-image {
+  border-radius: 90%;
+}
+
+.left_half_under {
+  display: flex;
+}
+
+.mannaka_midle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.mannnaka_sita {
+  display: flex;
+  justify-content: space-around;
+  height: 00px;
+}
+
+.mannnaka_sita_left {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.mannnaka_sita_left img {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+.mannnaka_sita_right {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.mannnaka_sita_right img {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+
+#battle-result {
+  text-align: center;
+  font-size: 24px;
+}
+
+.right_top {
+  margin-left: 20px;
+}
+
+.dragon_right_botom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dragon_gu_btn,
+.dragon_cho_btn,
+.dragon_pa_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* 適宜調整 */
+}
+
+.left_half_under {
+  display: flex;
+  justify-content: space-between; /* 適宜調整 */
+}
+
+.dragon_cho_btn,
+.dragon_pa_btn {
+  margin-left: 20px; /* 適宜調整 */
+}

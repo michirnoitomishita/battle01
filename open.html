@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Opening</title>
+    <link rel="stylesheet" type="text/css" href="/open.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">SUPER JANG拳 X</h1>
+      <p class="sub-title">Press Start</p>
+        <button class="easy-button" onclick="location.href='http://127.0.0.1:5500/battlecopy.html'">Easy</button>
+        <button class="hard-button" onclick="location.href='http://127.0.0.1:5500/battlecopy.html'">Hard</button>
+    </div>
+
+    </div>
+
+    <audio id="button-sound" src="/path/to/sound.mp3" preload="auto"></audio>
+
+    <script>
+      var buttonSound = document.getElementById("button-sound");
+
+      document.querySelectorAll("button").forEach((button) => {
+        button.addEventListener("click", function () {
+          // Play the sound
+          buttonSound.play();
+
+          // Button animation
+          this.style.animation = "none";
+          setTimeout(() => (this.style.animation = "buttonClicked 0.5s 1"), 10);
+        });
+      });
+    </script>
+  </body>
+</html>

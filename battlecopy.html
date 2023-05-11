@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="/battlecopy.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Battle Dragon Training</title>
+  </head>
+  <body>
+    <div class="title_box">
+      <div class="title_box_text">
+        <!-- <p class="honyaku">スーパー</p> -->
+        <h1>SUPER JANG拳 X</h1>
+        <p class="come">
+          勝っても修行負けても修行！
+          <br />
+          寝てても酔っててもコード打つべし！それぞ超ジャン拳！
+        </p>
+        <!-- コンピューターが読み込む→タグで読み込んでいく<p></p> -->
+        <!-- クラスの名前は自分で考えていい -->
+      </div>
+    </div>
+
+    <div class="main_contener">
+      <div class="left">
+        <div class="left_top">
+          <img src="/img/1-w1280.jpg" height=" 260px" width="250px" alt="" />
+          <h2>何拳で戦う！！？？</h2>
+        </div>
+        <div class="left_harf">
+          <div class="gu_btn">
+            <img
+              src="/img/guken.jpg"
+              height="95px"
+              width="95px"
+              alt="グー"
+              id="rock-image"
+            />
+            <button id="rock-button">グー拳</button>
+          </div>
+          <div class="left_half_under">
+            <div class="cho_btn">
+              <img
+                src="/img/tyoken.jpg"
+                height="95px"
+                width="95px"
+                alt="チョキ"
+                id="cho-image"
+              />
+              <button id="scissors-button">チョ拳</button>
+            </div>
+            <div class="pa_btn">
+              <img
+                src="/img/paken.jpg"
+                height="95px"
+                width="95px"
+                alt="パー"
+                id="pa-image"
+              />
+              <button id="paper-button">パー子</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mannaka">
+        <div class="mannaka_top">
+
+        </div>
+        <div class="mannaka_midle">
+          <div id="battle-result">
+            <script src="/battlecopy.js"></script>
+        </div>
+        <div class="mannnaka_sita">
+          <div class="mannnaka_sita_left">
+            <img
+              src="/img/guken.jpg"
+              height="150px"
+              width="150px"
+              alt="グー"
+              id="rock-image_kekka"
+              style="display: none;" 
+            />
+            <img
+              src="/img/tyoken.jpg"
+              height="150px"
+              width="150px"
+              alt="チョキ"
+              id="cho-image_kekka"
+              style="display: none;"
+            />
+            <img
+                src="/img/paken.jpg"
+                height="150px"
+                width="150px"
+                alt="パー"
+                id="pa-image_kekka"
+                style="display: none;"
+              />
+              
+          </div>
+
+          <div class="mannnaka_sita_right">
+            <img
+              src="/img/guken.jpg"
+              height="150px"
+              width="150px"
+              alt="グー"
+              id="rock-image_kekka2"
+              style="display: none;" 
+            />
+            <img
+              src="/img/tyoken.jpg"
+                height="150px"
+                width="150px"
+              alt="チョキ"
+              id="cho-image_kekka2"
+              style="display: none;"
+            />
+            <img
+                src="/img/paken.jpg"
+                height="150px"
+                width="150px"
+                alt="パー"
+                id="pa-image_kekka2"
+                style="display: none;"
+              />
+
+
+          </div>
+
+        </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right_top">
+          <img src="/img/ETx80gpUYAEZfKy.jpg" width="225px " alt="tessinn" />
+          <h2>敵は何をだす！！？？</h2>
+        </div>
+        <div class="dragon_right_botom">
+          <div class="dragon_gu_btn">
+            <img
+              src="/img/guken.jpg"
+              height="95px"
+              width="95px"
+              alt="グー"
+              id="dragon_rock-image"
+            />
+            <button id="dragon_rock-button">グー拳</button>
+          </div>
+          <div class="left_half_under">
+            <div class="dragon_cho_btn">
+              <img
+                src="/img/tyoken.jpg"
+                height="95px"
+                width="95px"
+                alt="チョキ"
+                id="dragon_cho-image"
+              />
+              <button id="dragon_scissors-button">チョ拳</button>
+            </div>
+            <div class="dragon_pa_btn">
+              <img
+                src="/img/paken.jpg"
+                height="95px"
+                width="95px"
+                alt="パー"
+                id="dragon_pa-image"
+              />
+              <button id="dragon_paper-button">パー拳</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
